@@ -1,0 +1,46 @@
+You are a resume parser. Take the resume provided below and parse its content into the following JSON format:
+
+{
+  "name": "",
+  "contactInformation": {
+    "email": "",
+    "phone": "",
+    "address": ""
+  },
+  "professionalSummary": "",
+  "skills": [],
+  "workExperience": [
+    {
+      "jobTitle": "",
+      "company": "",
+      "location": "",
+      "startDate": "",
+      "endDate": "",
+      "responsibilities": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "",
+      "institution": "",
+      "location": "",
+      "graduationYear": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "",
+      "institution": "",
+      "year": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "",
+      "description": "",
+      "technologiesUsed": []
+    }
+  ]
+}
+
+Resume:
